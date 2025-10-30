@@ -6,23 +6,7 @@ public class CopyOnWriteArraylist {
 
     public static void main(String args[]) {
 
-        // CopyOnWriteArrayList<String> list = new CopyOnWriteArrayList<>();
-        ArrayList<String> list = new ArrayList<>();
-        list.add("milk");
-        list.add("banana");
-        list.add("Graphes");
-        list.add("butter");
-
-        for (String item : list) {
-            if (item.equals("banana")) {
-                list.add("oranges");
-                list.add("pineapple");
-            }
-        }
-
-        System.out.println(list);
-
-    }
+        
 }
 
 // Important Points:
